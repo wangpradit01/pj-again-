@@ -6,6 +6,7 @@ import 'register.dart';
 void main() {
   //runApp(const MyApp());
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     title: 'Diabetes App',
     initialRoute: "/",
     routes: {
