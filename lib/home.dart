@@ -43,7 +43,9 @@ class Home extends StatelessWidget {
                                     MaterialStateProperty.all<Color>(
                                         Colors.blue),
                               ),
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.pushNamed(context, '/register');
+                              },
                               child: Text('Register'),
                             ),
                             TextButton(

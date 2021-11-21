@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
 import 'profile.dart';
+import 'register.dart';
 
 void main() {
-  // runApp(const MyApp());
+  //runApp(const MyApp());
   runApp(MaterialApp(
     title: 'Diabetes App',
-    initialRoute: '/',
+    initialRoute: "/",
     routes: {
       '/': (ctx) => const Home(),
-      // '/register': (ctx) => const Register(),
+      '/register': (ctx) => const Register(),
       '/profile': (ctx) => const Profile(),
     },
   ));
