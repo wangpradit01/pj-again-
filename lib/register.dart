@@ -67,6 +67,18 @@ class _RegisterState extends State<Register> {
                               });
                             }),
                       ),
+                      TextFormField(
+                        decoration: InputDecoration(
+                          // border: OutlineInputBorder(),
+                          hintText: 'Age',
+                        ),
+                      ),
+                      TextFormField(
+                        decoration: InputDecoration(
+                          // border: OutlineInputBorder(),
+                          hintText: 'Type of Diabetes',
+                        ),
+                      ),
                     ],
                   )
                 ],

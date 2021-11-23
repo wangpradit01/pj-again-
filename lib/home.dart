@@ -16,7 +16,9 @@ class Home extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
-                        Text('LOG-IN'),
+                        Text('LOG-IN',
+                            style: TextStyle(
+                                fontSize: 24, fontWeight: FontWeight.w600)),
                         TextFormField(
                           decoration: InputDecoration(
                             // border: OutlineInputBorder(),
