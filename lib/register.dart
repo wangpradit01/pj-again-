@@ -1,6 +1,5 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:pj/profile.dart';
 
 class Register extends StatefulWidget {
   const Register({Key? key}) : super(key: key);
@@ -57,53 +56,36 @@ class _RegisterState extends State<Register> {
                       ),
                     ],
                   ),
-//5555555
-                  // Row(
-                  //   children: [
-                  //     Text('Gender', style: TextStyle(fontSize: 10)),
-                  //     Expanded(
-                  //       child: RadioListTile(
-                  //           activeColor: Colors.blue,
-                  //           title: Text(
-                  //             "Male",
-                  //             style: TextStyle(fontSize: 10),
-                  //           ),
-                  //           value: "male",
-                  //           groupValue: gender,
-                  //           onChanged: (value) {
-                  //             setState(() {
-                  //               gender = value.toString();
-                  //             });
-                  //           }),
-                  //     ),
-                  //     Expanded(
-                  //       child: RadioListTile(
-                  //           activeColor: Colors.blue,
-                  //           title:
-                  //               Text("Female", style: TextStyle(fontSize: 10)),
-                  //           value: "female",
-                  //           groupValue: gender,
-                  //           onChanged: (value) {
-                  //             setState(() {
-                  //               gender = value.toString();
-                  //             });
-                  //           }),
-                  //     ),
-                  //     Expanded(
-                  //       child: RadioListTile(
-                  //           activeColor: Colors.blue,
-                  //           title: Text("Other"),
-                  //           value: "other",
-                  //           groupValue: gender,
-                  //           onChanged: (value) {
-                  //             setState(() {
-                  //               gender = value.toString();
-                  //             });
-                  //           }),
-                  //     ),
-                  //   ],
-                  // ),
 
+                  //Row(
+                  // children: [
+                  //   Text('Gender'),
+                  //   Expanded(
+                  //     child: RadioListTile(
+                  //         activeColor: Colors.blue,
+                  //         title: Text("Male"),
+                  //         value: "male",
+                  //         groupValue: gender,
+                  //         onChanged: (value) {
+                  //           setState(() {
+                  //             gender = value.toString();
+                  //           });
+                  //         }),
+                  //   ),
+                  //   Expanded(
+                  //     child: RadioListTile(
+                  //         activeColor: Colors.blue,
+                  //         title: Text("Female"),
+                  //         value: "female",
+                  //         groupValue: gender,
+                  //         onChanged: (value) {
+                  //           setState(() {
+                  //             gender = value.toString();
+                  //           });
+                  //         }),
+                  //   ),
+                  // ],
+                  //),
                   TextFormField(
                     decoration: InputDecoration(
                       // border: OutlineInputBorder(),
@@ -130,28 +112,10 @@ class _RegisterState extends State<Register> {
                     ),
                   ),
                   TextFormField(
-                    obscureText: true,
                     decoration: InputDecoration(
                       // border: OutlineInputBorder(),
-                      hintText: 'Confirm Password',
+                      hintText: 'Comfrim Password',
                     ),
-                  ),
-                  TextButton(
-                    style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.blue),
-                      foregroundColor:
-                          MaterialStateProperty.all<Color>(Colors.white),
-                    ),
-                    onPressed: () {
-                      // Navigator.pushNamed(context, '/register');
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Profile(),
-                          ));
-                    },
-                    child: Text('SUMMIT'),
                   ),
                 ],
               ),

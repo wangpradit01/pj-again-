@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pj/register.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -47,12 +46,7 @@ class Home extends StatelessWidget {
                                         Colors.blue),
                               ),
                               onPressed: () {
-                                // Navigator.pushNamed(context, '/register');
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => Register(),
-                                    ));
+                                Navigator.pushNamed(context, '/register');
                               },
                               child: Text('Register'),
                             ),
