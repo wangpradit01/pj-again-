@@ -117,6 +117,18 @@ class _RegisterState extends State<Register> {
                       hintText: 'Comfrim Password',
                     ),
                   ),
+                  TextButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.blue),
+                      foregroundColor:
+                          MaterialStateProperty.all<Color>(Colors.white),
+                    ),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/register');
+                    },
+                    child: Text('Register'),
+                  ),
                 ],
               ),
             ),
