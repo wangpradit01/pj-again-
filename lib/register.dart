@@ -125,9 +125,9 @@ class _RegisterState extends State<Register> {
                           MaterialStateProperty.all<Color>(Colors.white),
                     ),
                     onPressed: () {
-                      Navigator.pushNamed(context, '/register');
+                      Navigator.pushNamed(context, '/profile');
                     },
-                    child: Text('Register'),
+                    child: Text('SUMMIT'),
                   ),
                 ],
               ),
