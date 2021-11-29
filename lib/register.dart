@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:pj/profile.dart';
 
 class Register extends StatefulWidget {
   const Register({Key? key}) : super(key: key);
@@ -9,7 +10,8 @@ class Register extends StatefulWidget {
 }
 
 class _RegisterState extends State<Register> {
-  String gender = "male";
+  //String gender = "male";
+  Profile profile = Profile();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -96,6 +98,12 @@ class _RegisterState extends State<Register> {
                     decoration: InputDecoration(
                       // border: OutlineInputBorder(),
                       hintText: 'Type of Diabetes',
+                    ),
+                  ),
+                  TextFormField(
+                    decoration: InputDecoration(
+                      // border: OutlineInputBorder(),
+                      hintText: 'User Name',
                     ),
                   ),
                   TextFormField(
