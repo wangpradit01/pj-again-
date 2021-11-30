@@ -11,7 +11,7 @@ class Register extends StatefulWidget {
 
 class _RegisterState extends State<Register> {
   //String gender = "male";
-  Profile profile = Profile();
+  // Profile profile = Profile();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,7 +44,7 @@ class _RegisterState extends State<Register> {
                   Row(
                     children: [
                       DropdownButton<String>(
-                        items: <String>['Male', 'Female', 'Otheer']
+                        items: <String>['Male', 'Female', 'Other']
                             .map((String value) {
                           return DropdownMenuItem<String>(
                             value: (value),
