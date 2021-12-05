@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pj/login.dart';
+import 'package:pj/search.dart';
+
 import 'home.dart';
 import 'profile.dart';
 import 'register.dart';
+
 
 void main() {
   //runApp(const MyApp());
@@ -15,6 +18,7 @@ void main() {
       '/register': (ctx) => const Register(),
       '/login': (ctx) => const Login(),
       '/profile': (ctx) => const Profile(),
+      '/search' : (ctx) => const Search(),
     },
   ));
 }
