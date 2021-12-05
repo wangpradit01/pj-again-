@@ -3,7 +3,7 @@ import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
-import 'package:pj/drawer.dart';
+import 'package:pj/buildmenu/drawer.dart';
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
