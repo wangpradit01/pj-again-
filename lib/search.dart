@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pj/buildmenu/drawer.dart';
 
 class Search extends StatefulWidget {
   const Search({ Key? key }) : super(key: key);
@@ -13,6 +14,8 @@ class _SearchState extends State<Search> {
      return Scaffold(
         appBar: AppBar(
           title: const Text('Diabetes App - Search'),
-        ));
+          
+        ),
+        drawer: MainDraw(),);
   }
 }
