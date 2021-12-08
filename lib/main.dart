@@ -10,6 +10,8 @@ import 'home.dart';
 import 'profile.dart';
 import 'register.dart';
 import 'alert.dart';
+import 'search.dart';
+import 'setting.dart';
 
 
 void main() {

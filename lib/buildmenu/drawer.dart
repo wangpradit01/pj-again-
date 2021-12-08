@@ -51,7 +51,7 @@ class _MainDrawState extends State<MainDraw> {
             icon: Icons.pie_chart_outline_rounded,
             onClick: () => Navigator.pushNamed(context, '/graph')
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 300),
         buildMenuItem(
             text: 'Setting',
             icon: Icons.settings,
